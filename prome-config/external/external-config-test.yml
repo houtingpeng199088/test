@@ -1,0 +1,11 @@
+external-risk:
+  baiduRockAddressUrl : https://jrws.baidu.com/risk/api/info/check/address?
+  baiduRockSearchUrl : https://jrws.baidu.com/risk/api/info/search?
+  bairongStrategyId : STR0002136
+  geoTokenUrl : /civp/getview/api/o/login?
+  geoQueryUrl : /civp/getview/api/u/queryUnify
+  geoFileUrl : /ofiles/openapi/jiao/
+  fiveDFileUrl : /ofiles/openapi/wuwei/
+  shenyueFileUrl : /ofiles/openapi/shenyue/
+  tencentAntiFraud : AntiFraud
+  tencentGz : gz

@@ -1,0 +1,26 @@
+filepath:
+  messagePath: D:\messageList
+  addressPath: D:/workspace/java/filePath/addressList/
+
+taskcron:
+  addressTaskCron: 0 */1 * * * ?
+
+operator:
+  detailDelayMillis: 259200000
+  detailLocalUrlPrefix: "http://182.92.80.211:8091"
+  detailNetUrlPrefix: "http://open.xianhuahua.com"
+
+appinfo:
+  perRowCount: 100
+  appListNameLengthLimit: 100
+
+addressinfo:
+  selectSubHours: 1
+  selectInitNum: 1000
+  maxSelectNum: 10000
+  minPhoneLength: 3
+  maxPhoneLength: 20
+  maxNameLength: 30
+  regexOfName: "\\{}|[^0-9a-zA-Z\\u4e00-\\u9fa5\\p{P}\\s]+"
+  regexOfPhone: "\\D"
+  batchInsertSize: 800

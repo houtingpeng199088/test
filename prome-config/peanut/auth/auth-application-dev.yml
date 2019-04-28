@@ -1,0 +1,39 @@
+#开发环境业务配置
+prome:
+  risk:
+    token:
+      minute-of-expiration: 100 # 分钟 1440
+      minute-of-refresh: 30 # 分钟 2880
+      signing-key: yaoyuefu-cloud-peanut
+
+logging:
+  level:
+    com.yaoyuefu.peanut: INFO
+    o.a.k.c.consumer: INFO
+  config: classpath:logback/logback-dev.xml
+
+
+spring:
+  datasource:
+    name: dev
+    url: jdbc:mysql://10.67.2.211:3306/prome_cloud?useUnicode=true&zeroDateTimeBehavior=convertToNull&characterEncoding=utf-8&useSSL=false
+    username: strategy
+    password: egm1OHnuJUpMt!LxXW
+#    username: root
+#    password:
+    driver-class-name:  com.mysql.jdbc.Driver
+    # 使用hikari数据源
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      minimum-idle: 10
+      maximum-pool-size: 100
+      auto-commit: true
+      idle-timeout: 30000
+      pool-name: DatebookHikariCP
+      max-lifetime: 1800000
+      connection-timeout: 30000
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+

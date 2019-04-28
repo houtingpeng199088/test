@@ -1,0 +1,46 @@
+openplatform:
+  appId : "0701109392016"
+  secretKey : 45BCDGHKOQRSUWXYdfgntvwy
+  apiDomain : http://182.92.80.211:8091/api
+  xhOpenDomain : http://182.92.80.211:8091
+  channelId : 174
+  ganodermaUrl : /fulin/request
+  qcloudUrl : /antifraud/request
+  bairongincUrl : /bair/request
+  baiduhcUrl : /baiduhc/request
+  intellicreditUrl : /shenyue/request
+  fiveDUrl : /wuwei/request
+  geoUrl: /jiao/request
+  tongdunScoreUrl: /zhixin/request
+
+modelset:
+  apiDomain : http://182.92.80.211:8001/api
+  secretKey : spLu1bSt3jXPY8ximZUf9k7F
+  initialLoanUrl : /xgboost
+  doubleLoanUrl : /reloanxg
+  phoneTagUrl : /phonetag
+
+cloudplatform:
+  appId : 503210995943
+  secretKey : tCHbK#37O1HS1F*yFnUK$I!VEFQYneZl
+  apiDomain : http://182.92.80.211:8082
+  channelId : 174
+  cloudLoanUrl : /strategy/cloud/loan
+  baidulbsUrl : /strategy/cloud/new-baidulbs
+
+strategyone:
+  address: http://47.95.140.218:8085
+  path: /strategyone/ws/S1Public?wsdl
+
+tasktime:
+  creditRatingTime: 0 */2 * * * ?
+  checkResourceTaskCron: 0 */2 * * * ?
+  notifyTaskCron: 0 */2 * * * ?
+  stAmountTaskCron: 0 */2 * * * ?
+  succNumStdTaskCron: 0 1 0 * * ?
+
+notifyplatform:
+  yyySecretKey: CUSO8YSu%TAusi@Q098x735E
+  hkSecretKey: vVWiJUFh!mrtBOO%yJZg*4cZ
+  ygySecretKey: CUSO8YSu%TAusi@Q098x735E
+  hksgSecretKey: vVWiJUFh!mrtBOO%yJZg*4cZ
